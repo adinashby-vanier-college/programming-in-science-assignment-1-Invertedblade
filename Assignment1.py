@@ -73,3 +73,10 @@ def count_multiples_of_3(limit):
 def sum_of_even_numbers(start, end):
     # TODO: Implement this function
     pass  # Replace with your code
+    count = start
+    num = 0
+    while count <= end:
+        if count%2 == 0:
+            num += count
+        count += 1
+    return num
