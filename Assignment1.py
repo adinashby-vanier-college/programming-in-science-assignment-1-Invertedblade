@@ -80,3 +80,14 @@ def sum_of_even_numbers(start, end):
             num += count
         count += 1
     return num
+
+    
+#6. **(20%)** Do-While Loop Simulation – Ask for Positive Number:
+#- Write a function that continuously asks the user for a number until they input a positive number. The function should return the first positive number input by the user.
+
+#def first_positive_number(number):
+    #num = 0
+    #if number%2 == 0:
+        #num += number
+    #else:
+        #...
